@@ -2,7 +2,7 @@ import TechStack from "@/components/TechStack";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center text-center py-24 px-6">
+    <main className="flex flex-col items-center text-center py-24 px-6 ">
 
       {/* HERO */}
       <section className="max-w-3xl space-y-6">
