@@ -25,11 +25,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className="min-h-screen">
-        <ThemeProvider attribute="class">
+        <ThemeProvider attribute="class"  defaultTheme="system" enableSystem>
           <Navbar />
-          <main className="max-w-4xl mx-auto p-6">
+          <main className="max-w-4xl mx-auto p-6 pt-24">
             {children}
           </main>
         </ThemeProvider>

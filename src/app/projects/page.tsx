@@ -3,8 +3,8 @@ import PojectCard from "@/components/ProjectCard";
 
 export default function Projects() {
     return (
-        <main className="py-16">
-            <h1 className="text-3xl font-bold mb-10">
+        <main className="space-y-8">
+            <h1 className="text-3xl font-bold">
                 Meus Projetos
             </h1>
 

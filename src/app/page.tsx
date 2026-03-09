@@ -1,6 +1,10 @@
 import TechStack from "@/components/TechStack";
+import { projects } from "@/data/Project"
+import ProjectCard from "@/components/ProjectCard"
 
 export default function Home() {
+  const featuredProjects = projects.slice(0, 2)
+
   return (
     <main className="flex flex-col items-center text-center py-24 px-6 ">
 
@@ -41,6 +45,21 @@ export default function Home() {
         </h2>
 
         <TechStack/>
+      </section>
+
+      <section className="space-y-8">
+        <h2 className="text-2xl font-semibold">
+          Projetos em destaque
+        </h2>
+
+        <div className="grid md-grid-cols-2 gap-6">
+          {featuredProjects.map((project) => (
+            <ProjectCard
+              key={project.title}
+              {...project}
+            />
+          ))}
+        </div>
       </section>
     </main>
   );
