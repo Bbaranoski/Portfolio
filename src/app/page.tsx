@@ -1,3 +1,5 @@
+import TechStack from "@/components/TechStack";
+
 export default function Home() {
   return (
     <main className="flex flex-col items-center text-center py-24 px-6">
@@ -35,16 +37,10 @@ export default function Home() {
       <section className="mt-20 max-w-3xl">
 
         <h2 className="text-2xl font-semibold mb-6">
-          Tecnologias que utilizo
+          Tecnologias
         </h2>
 
-        <div className="flex flex-wrap justify-center gap-4">
-          <span className="border px-4 py-2 rounded">React</span>
-          <span className="border px-4 py-2 rounded">TypeScritp</span>
-          <span className="border px-4 py-2 rounded">Next.js</span>
-          <span className="border px-4 py-2 rounded">Node.js</span>
-          <span className="border px-4 py-2 rounded">PostgresSQL</span>
-        </div>
+        <TechStack/>
       </section>
     </main>
   );
