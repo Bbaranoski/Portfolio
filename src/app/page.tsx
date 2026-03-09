@@ -42,7 +42,7 @@ export default function Home() {
           <span className="border px-4 py-2 rounded">React</span>
           <span className="border px-4 py-2 rounded">TypeScritp</span>
           <span className="border px-4 py-2 rounded">Next.js</span>
-          <span className="border px-4 py-2 rounded">Nose.js</span>
+          <span className="border px-4 py-2 rounded">Node.js</span>
           <span className="border px-4 py-2 rounded">PostgresSQL</span>
         </div>
       </section>
