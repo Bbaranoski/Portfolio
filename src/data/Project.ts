@@ -6,14 +6,14 @@ export const projects: Project[] = [
         description: "Aplicação de gerenciamento de tarefas.",
         technologies: ["React", "TypeScript", "Tailwind", "Next.js", "Nodejs", "Prisma", "PostgresSQL", "Nest.js"],
         github: "https://github.com/Bbaranoski/estudo",
-        image: "/projects/placeholder.jpg"
+        image: "/projects/ToDo.png"
     },
     {
         title: "WinMo",
-        description: "Replica do jogo Term.oo com duelo entre jogadores.",
+        description: "Jogo baseado no Term.oo com duelo entre jogadores.",
         technologies: ["React", "TypeScript", "Tailwind", "Next.js", "Nodejs", "Prisma", "PostgresSQL", "Socket.io"],
         github: "https://github.com/Bbaranoski/Cinco",
-        image: "/projects/placeholder.jpg"
+        image: "/projects/WinMo.png"
     },
     {
         title: "Restaurante",

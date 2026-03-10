@@ -4,6 +4,12 @@ export default function Footer() {
             <p>
                 © {new Date().getFullYear()} Breno — Portfolio
             </p>
+            <a className="inline-block text-blue-600 hover:underline"
+                target="_blank"
+                href="https://github.com/Bbaranoski/Portfolio"
+            >
+                GitHub
+            </a>
         </footer>
     )
 }
