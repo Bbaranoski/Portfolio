@@ -15,14 +15,14 @@ export default function Home() {
           Olá, eu sou o Breno
         </h1>
 
-        <p className="text-xl text-gray-600">
+        <p className="text-xl text-zinc-600 dark:text-zinc-400">
           Desenvolvedor focado em React, Next.js e TypeScript.
           Estou em busca da minha primeira oportunidade como
           desenvolvedor júnior para criar aplicações modernas e escaláveis.
         </p>
 
         <div className="flex justify-center gap-4 pt-4">
-          <a className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-100 hover:text-black transition"
+          <a className="bg-black dark:bg-white text-white dark:text-black px-6 py-3 rounded-lg dark:hover:bg-zinc-100 hover:bg-zinc-800 transition"
             href="/projects"
           >
             Ver Projetos
@@ -38,7 +38,7 @@ export default function Home() {
       </section>
 
       {/* TECNOLOGIAS */}
-      <section className="mt-20 max-w-3xl">
+      <section className="mt-20 max-w-3xl mb-12">
 
         <h2 className="text-2xl font-semibold mb-6">
           Tecnologias
@@ -47,6 +47,7 @@ export default function Home() {
         <TechStack/>
       </section>
 
+      {/* PROJETOS */}
       <section className="space-y-8">
         <h2 className="text-2xl font-semibold">
           Projetos em destaque

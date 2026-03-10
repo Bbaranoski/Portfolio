@@ -30,11 +30,11 @@ export default function PojectCard({
             <div className="p-6 space-y-4">
                 <h3 className="text-xl font-semibold">{title}</h3>
 
-                <p className="text-gray-600">{description}</p>
+                <p className="text-zinc-600 dark:text-zinc-400">{description}</p>
 
                 <div className="flex flex-wrap gap-2">
                     {technologies.map((tech) => (
-                        <span className="text-sm border px-2 py-1 rounded transition hover:bg-gray-100"
+                        <span className="text-sm border px-2 py-1 rounded transition hover:bg-zinc-100 dark:hover:bg-zinc-800"
                             key={tech}
                         >
                             {tech}
